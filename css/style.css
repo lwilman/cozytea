@@ -1,0 +1,145 @@
+:root {
+    --seashell: #fff5ee;
+    --fullhdwidth: 1920px;
+} 
+html {
+    margin: 0;
+    font-family: Helvetica, sans-serif, Arial;
+    font-size: 22px;
+    color: #fff5ee;
+    background: black;
+    opacity: 0.9;
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+
+a {
+    color: var(--seashell);
+}
+a #logopicture{
+    height: 69px; 
+}
+
+nav li a {
+    padding: 1em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+}
+
+.header-section .container{
+    display:flex;
+    z-index: 999;
+    border-bottom: 1px solid var(--seashell);
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.flex-items-menu {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.landingslogan{
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    width: var(--fullhdwidth); /* Can be inherited from picture for auto*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#logopicture {
+    background-size: cover;
+}
+
+.landing-section .container {
+    position: relative;
+}
+
+.gallery-section .container {
+}
+.tea-title{
+    margin: 0 auto;
+    font-weight: bold;
+}
+.picturecol {
+    display: flex;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: auto;
+    align-content: start;
+}
+
+.picturecol figure{
+    flex: 0 0 auto;
+    margin: 28px;
+    width: 300px;
+    height: 200px;
+}
+.picturecol figcaption {
+    margin: 10px;
+   }
+
+
+.location-section {
+   
+}
+
+.location-section .container {
+    background-image: url(/designspecs/img-locations-background.webp);
+    width: 1200px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 65px;
+}
+
+.location-section .container h2 {
+    margin: 15px; 
+    
+}
+.location-section .locationcol {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+opacity: 1;
+
+}
+.locationcol-item {
+    flex: 0 0 auto;
+    outline: dashed 1px blue;
+    background-color: black;
+    margin: 40px;
+    width: 300px;
+    margin: 0 20px;
+}
+
+.locationcol-item p {
+    margin: 0 
+}
+
+.locationcol-item-p-bottom {
+    margin-bottom: 22px;
+}
+
+.footer-section .container {
+ height: 200px;
+ font-weight: bold;
+}
+.footer-section .lastcontainer {
+text-align: left;
+margin-left: 20px;
+font-weight: bold;
+}
+
